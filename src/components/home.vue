@@ -16,7 +16,7 @@
         </b-card>
 
         <b-card title="Works"
-                v-bind:img-src="require('../assets/works.webp')"
+                v-bind:img-src="require('../assets/works.png')"
                 img-fluid
                 img-alt="Image"
                 img-top
