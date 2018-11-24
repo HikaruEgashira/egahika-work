@@ -8,12 +8,11 @@
                 img-alt="Image"
                 img-top
                 tag="article"
-                style="max-width: 20rem;"
                 class="mb-2">
           <p class="card-text">
             自己紹介です
           </p>
-          <b-button href="profile" variant="primary">Go Profile</b-button>
+          <b-button to="/profile" variant="primary">Go Profile</b-button>
         </b-card>
 
         <b-card title="Works"
@@ -22,12 +21,11 @@
                 img-alt="Image"
                 img-top
                 tag="article"
-                style="max-width: 20rem;"
                 class="mb-2">
           <p class="card-text">
             制作物一覧です
           </p>
-          <b-button href="works" variant="primary">Go Works</b-button>
+          <b-button to="/works" variant="primary">Go Works</b-button>
         </b-card>
 
         <b-card title="Contact"
@@ -36,12 +34,11 @@
                 img-alt="Image"
                 img-top
                 tag="article"
-                style="max-width: 20rem;"
                 class="mb-2">
           <p class="card-text">
-            セキュリティー万全です
+            非常にセキュア
           </p>
-          <b-button href="contact" variant="primary">Go Contact</b-button>
+          <b-button to="/contact" variant="primary">Go Contact</b-button>
         </b-card>
       </b-card-group>
     </div>
