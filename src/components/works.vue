@@ -1,6 +1,6 @@
 <template>
   <div class="container" style="position: relative; top: -40px">
-    <img v-bind:src="require('../assets/works.png')" alt="works" fluid height="200px"><br><br>
+    <img v-bind:src="require('../assets/works.webp')" alt="works" fluid height="200px"><br><br>
     <h2>制作物一覧</h2>
     <br><br>
     <div>
