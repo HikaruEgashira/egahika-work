@@ -1,6 +1,7 @@
 <template>
-  <div id="app" style="position: relative; top: -60px">
-    <!-- いらなくね?って思ったので非表示に
+  <b-container fluid style="position: relative; top: 0px">
+    <div id="app">
+      <!-- いらなくね?って思ったので非表示に
     <div>
       <b-nav fill tabs>
         <b-nav-item to="/">Home</b-nav-item>
@@ -10,16 +11,13 @@
           </b-nav-item-dropdown>
         <b-nav-item to="contact">Contact</b-nav-item>
       </b-nav>
-    </div> -->
-
-    <!-- issue: 外側に青い点線が出てくるのを消したい
-    <b-link to="/"> -->
-    <img src="./assets/logo.png" fluid alt="egahika work" height="300px">
-    <!-- </b-link> -->
-
-    <router-view></router-view>
-
-  </div>
+      </div>-->
+      <!-- issue: 外側に青い点線が出てくるのを消したい
+      <b-link to="/">-->
+      <!-- </b-link> -->
+      <router-view></router-view>
+    </div>
+  </b-container>
 </template>
 
 <script>
@@ -30,7 +28,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
