@@ -1,9 +1,8 @@
 <template>
   <div style="position: relative; top: -40px">
     <img v-bind:src="require('../assets/logo.png')" fluid alt="egahika work" height="500px">
-    <div style="position: relative; top: -70px">
+    <div style="position: relative; top: -120px">
       <b-card
-        title="Profile"
         v-bind:img-src="require('../assets/profile.png')"
         img-fluid
         img-alt="profile_by_egahika"
@@ -13,10 +12,9 @@
         class="w-80 mx-auto p-5 m-5"
       >
         <p class="card-text">自己紹介です</p>
-        <b-button href="#profile" variant="primary">Go Profile</b-button>
+        <b-button href="#profile" variant="outline-success" size="lg">Go Profile</b-button>
       </b-card>
       <b-card
-        title="Works"
         v-bind:img-src="require('../assets/works.png')"
         img-fluid
         img-alt="works_by_egahika"
@@ -26,10 +24,9 @@
         class="w-80 mx-auto p-5 m-5"
       >
         <p class="card-text">制作物一覧です</p>
-        <b-button href="#works" variant="primary">Go Works</b-button>
+        <b-button href="#works" variant="outline-success" size="lg">Go Works</b-button>
       </b-card>
       <b-card
-        title="Contact"
         v-bind:img-src="require('../assets/contact.png')"
         img-fluid
         img-alt="contact_by_egahika"
@@ -39,7 +36,7 @@
         class="w-80 mx-auto p-5 m-5"
       >
         <p class="card-text">非常にセキュア</p>
-        <b-button href="#contact" variant="primary">Go Contact</b-button>
+        <b-button href="#contact" variant="outline-success" size="lg">Go Contact</b-button>
       </b-card>
     </div>
 
@@ -73,13 +70,13 @@
           img-alt="qiita"
           img-top
           tag="article"
-          style="max-width: 40rem; border-radius:5%;"
+          style="max-width: 40rem;"
           class="w-80 mx-auto p-5 m-5"
         >
           <p class="card-text">
             vscode内でqiitaでの検索を行えるようにする拡張機能
           </p>
-          <b-button href="https://qiita.com/ITF_hikary/items/f529a5284e2353ac9794" variant="primary">Qiitaでの解説記事</b-button>
+          <b-button href="https://qiita.com/ITF_hikary/items/f529a5284e2353ac9794" variant="outline-success" size="lg">Qiitaでの解説記事</b-button>
         </b-card>
       </div>
     </div>

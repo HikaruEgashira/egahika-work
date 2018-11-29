@@ -14,7 +14,7 @@
           class="mb-2"
         >
           <p class="card-text">自己紹介です</p>
-          <b-button href="#profile" variant="primary">Go Profile</b-button>
+          <b-button href="#profile" variant="outline-success">Go Profile</b-button>
         </b-card>
 
         <b-card
@@ -28,7 +28,7 @@
           class="mb-2"
         >
           <p class="card-text">制作物一覧です</p>
-          <b-button href="#works" variant="primary">Go Works</b-button>
+          <b-button href="#works" variant="outline-success">Go Works</b-button>
         </b-card>
 
         <b-card
@@ -42,7 +42,7 @@
           class="mb-2"
         >
           <p class="card-text">非常にセキュア</p>
-          <b-button href="#contact" variant="primary">Go Contact</b-button>
+          <b-button href="#contact" variant="outline-success">Go Contact</b-button>
         </b-card>
       </b-card-group>
     </div>
@@ -51,11 +51,9 @@
     <br>
 
     <div id="profile">
-      <br>
-      <br>
+      <br><br>
       <h2>自己紹介</h2>
-      <br>
-      <br>
+      <br><br>
       <p>江頭輝です</p>
       <p>"ひかる"と読みます</p>
       <br><br>
@@ -71,9 +69,9 @@
     <br>
 
     <div id="works">
+      <br><br>
       <h2>制作物一覧</h2>
-      <br>
-      <br>
+      <br><br>
       <div>
         <b-card-group deck class="mb-3">
           <b-card
@@ -84,12 +82,12 @@
             img-top
             tag="article"
             style="max-width: 20rem;"
-            class="mb-2"
+            class="mb-2 mx-auto p-4"
           >
             <p class="card-text">vscode内でqiitaでの検索を行えるようにする拡張機能</p>
             <b-button
               href="https://qiita.com/ITF_hikary/items/f529a5284e2353ac9794"
-              variant="primary"
+              variant="outline-success"
             >Qiitaでの解説記事</b-button>
           </b-card>
         </b-card-group>
@@ -99,18 +97,20 @@
       <br>
 
       <div id="contact">
+        <br><br>
         <h2>contact</h2>
+        <br><br>
+        <p>coming soon...</p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+// import Router from 'vue-router'
+
 export default {
-  name: 'home',
-  data () {
-    return {}
-  }
+  name: 'home'
 }
 
 if (
@@ -121,6 +121,9 @@ if (
 ) {
   // スマホ用のページにリダイレクトする
   location.href = '/sp#'
+  // Router.go('/sp#')
+  // router.push('sp')
+  // this.$Router.push('sp')
 }
 </script>
 

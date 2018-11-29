@@ -1,6 +1,7 @@
 <template>
   <div style="position: relative; top: -70px">
-    <img v-bind:img-src="require('../assets/logo.png')" fluid alt="egahika work" height="300px">
+    <img v-bind:src="require('../assets/logo.png')" fluid alt="egahika work" height="300px">
+    <br>
     <img v-bind:src="require('../assets/profile.png')" alt="profile" fluid height="200px"><br><br>
     <h2>自己紹介</h2>
     <br><br>
