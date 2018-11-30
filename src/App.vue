@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid style="position: relative; top: 0px">
+  <b-container fluid>
     <div id="app">
       <!-- いらなくね?って思ったので非表示に
     <div>
