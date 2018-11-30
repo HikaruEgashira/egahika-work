@@ -5,6 +5,7 @@
 - 自己を紹介するサイトです。
 - 基本的にVueを使っています。
 - 利用しているwebpackは[bootstrap-vue](https://github.com/bootstrap-vue/webpack)です。
+- deploy to [netlify](https://www.netlify.com)
 
 ## Build Setup
 
