@@ -13,22 +13,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
       component: home
     },
     {
       path: '/profile',
-      name: 'profile',
       component: profile
     },
     {
       path: '/works',
-      name: 'works',
       component: works
     },
     {
       path: '/contact',
-      name: 'contact',
       component: contact
     }
   ]

@@ -107,24 +107,9 @@
 </template>
 
 <script>
-// import Router from 'vue-router'
-
 export default {
   name: 'home'
 }
-
-// if (
-//   (navigator.userAgent.indexOf('iPhone') > 0 &&
-//     navigator.userAgent.indexOf('iPad') === -1) ||
-//   navigator.userAgent.indexOf('iPod') > 0 ||
-//   navigator.userAgent.indexOf('Android') > 0
-// ) {
-//   // スマホ用のページにリダイレクトする
-//   // location.href = '/sp#'
-//   // Router.go('/sp#')
-//   // Router.push('sp')
-//   this.$Router.push({ name: 'sp' })
-// }
 </script>
 
 <style>
