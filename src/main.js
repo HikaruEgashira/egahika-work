@@ -6,8 +6,12 @@ import App from './App'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import VueAnalytics from 'vue-analytics'
 
 Vue.use(BootstrapVue)
+Vue.use(VueAnalytics, {
+  id: 'UA-130194116-1'
+})
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
