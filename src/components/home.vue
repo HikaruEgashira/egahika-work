@@ -78,7 +78,7 @@
             title="search with qiita"
             v-bind:img-src="require('../assets/qiita.png')"
             img-fluid
-            img-alt="Image"
+            img-alt="qiita"
             img-top
             tag="article"
             style="max-width: 20rem;"
@@ -89,6 +89,22 @@
               href="https://qiita.com/ITF_hikary/items/f529a5284e2353ac9794"
               variant="outline-success"
             >Qiitaでの解説記事</b-button>
+          </b-card>
+          <b-card
+            title="SPA with Vue"
+            v-bind:img-src="require('../assets/vue.png')"
+            img-fluid
+            img-alt="vue"
+            img-top
+            tag="article"
+            style="max-width: 20rem;"
+            class="mb-2 mx-auto p-4"
+          >
+            <p class="card-text">Vueのシングルページアプリケーション練習&解説サイト</p>
+            <b-button
+              to="apps"
+              variant="outline-success"
+            >Go SPA page</b-button>
           </b-card>
         </b-card-group>
       </div>
