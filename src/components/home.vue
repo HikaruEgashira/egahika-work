@@ -2,7 +2,7 @@
   <div style="position: relative; top: -20px">
     <img v-bind:src="require('../assets/logo.png')" fluid alt="egahika work" height="300px">
     <div>
-      <b-card-group columns>
+      <b-card-group deck>
         <b-card
           title="Profile"
           v-bind:img-src="require('../assets/profile.png')"
@@ -10,8 +10,8 @@
           img-alt="Image"
           img-top
           tag="article"
-          style="max-width: 20rem;"
-          class="mb-2"
+          style="max-width: 20rem"
+          class="mb-2 mx-auto"
         >
           <p class="card-text">自己紹介です</p>
           <b-button href="#profile" variant="outline-success">Go Profile</b-button>
@@ -24,8 +24,8 @@
           img-alt="Image"
           img-top
           tag="article"
-          style="max-width: 20rem;"
-          class="mb-2"
+          style="max-width: 20rem"
+          class="mb-2 mx-auto"
         >
           <p class="card-text">制作物一覧です</p>
           <b-button href="#works" variant="outline-success">Go Works</b-button>
@@ -38,8 +38,8 @@
           img-alt="Image"
           img-top
           tag="article"
-          style="max-width: 20rem;"
-          class="mb-2"
+          style="max-width: 20rem"
+          class="mb-2 mx-auto"
         >
           <p class="card-text">非常にセキュア</p>
           <b-button href="#contact" variant="outline-success">Go Contact</b-button>

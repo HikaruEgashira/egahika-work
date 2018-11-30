@@ -5,7 +5,6 @@ import home from '@/components/home'
 import profile from '@/components/profile'
 import works from '@/components/works'
 import contact from '@/components/contact'
-import sphome from '@/components/sphome'
 
 Vue.use(Router)
 
@@ -14,23 +13,23 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'home',
       component: home
     },
     {
       path: '/profile',
+      name: 'profile',
       component: profile
     },
     {
       path: '/works',
+      name: 'works',
       component: works
     },
     {
       path: '/contact',
+      name: 'contact',
       component: contact
-    },
-    {
-      path: '/sp',
-      component: sphome
     }
   ]
 })
