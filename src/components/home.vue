@@ -102,7 +102,7 @@
           >
             <p class="card-text">Vueのシングルページアプリケーション練習&解説サイト</p>
             <b-button
-              href="apps"
+              to="apps"
               variant="outline-success"
             >Go SPA page</b-button>
           </b-card>
